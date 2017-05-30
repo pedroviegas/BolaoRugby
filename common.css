@@ -1,0 +1,316 @@
+A:link { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 10pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A:visited { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 10pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; text-decoration: none 
+}
+A:hover { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 10pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: white; 
+  text-decoration: none 
+}
+A.VERSION:visited {
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A.VERSION:link { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A.VERSION:hover { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: white; 
+  text-decoration: none 
+}
+A.PRED:visited {
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A.PRED:link { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A.PRED:hover { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 8pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: white; 
+  text-decoration: none 
+}
+
+body.MAIN {
+  background-color: white;
+  text-align: center;
+}
+font.TBLHEAD {
+  font-size: 10pt; 
+  color: white; 
+  font-family: tahoma; 
+  font-weight: bold; 
+  text-decoration: none
+}
+font.UADUP {
+  font-size: 10pt; 
+  color: white; 
+  font-family: tahoma; 
+  text-decoration: none
+}
+font.UADDOWN {
+  font-size: 10pt; 
+  color: white; 
+  font-family: tahoma; 
+  text-decoration: none
+}
+font.TBLROW {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none
+}
+font.VERSION {
+  font-size: 8pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none
+}
+font.LEADER {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none; 
+  background-color: GOLD
+}
+font.PRDROW {
+  font-size: 10pt;
+  color: NAVY; 
+  font-family: tahoma; 
+  font-weight: normal; 
+  text-decoration: none; 
+  background-color: #addce3
+}
+font.LOGINHD {
+  font-size: 8pt; 
+  color: white; 
+  font-family: tahoma; 
+  font-weight: bold; 
+  text-decoration: none; 
+  background-color: navy
+}
+font.LOGINRW {
+  font-size: 8pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none; 
+  background-color: #addce3
+}
+
+font.HELPTEXT {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none; 
+  background-color: WHITE}
+font.HELPROW {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none}
+font.HELPHEAD {
+  font-size: 10pt; 
+  color: WHITE; 
+  font-family: tahoma; 
+  text-decoration: BOLD
+}
+font.PREDHEAD {
+  font-size: 8pt; 
+  color: red; 
+  font-family: tahoma; 
+  text-decoration: BOLD
+}
+
+table.LEFT {
+  width: 140px; 
+  background-color: #ffffff;
+  cell-spacing: 0px;
+  padding: 0px;
+}
+table.CENTER {
+  border: groove black 0px;
+  background-color: #ffffff;
+  cell-spacing: 0px;
+  padding: 0px;
+  width: 520px;
+}
+table.RIGHT {
+  border: groove black 0px;
+  width: 140px; 
+  background-color: #ffffff;
+}
+table.MAINTB {
+  border: groove black 0px;
+  background-color: transparent;
+  cell-spacing: 0px;
+  padding: 0px;
+  width: 800px;
+}
+table.HELPTB {
+  background-color: transparent;
+  width: 520px; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+table.MSGTB {
+  background-color: transparent;
+  width: 520px; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+iframe.STANDTB {
+  background-color: red;
+  width: 520px; 
+  height: 400px; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+table.STANDTB {
+  background-color: transparent;
+  width: 520px; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+table.PREDTB {
+  background-color: transparent;
+  width: 140; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+table.MENUTB {
+  background-color: transparent;
+  width: 140px; 
+  cell-spacing: 0px;
+  border: inset red 0px;
+  padding: 0px;
+}
+table.LOGINTB {
+  background-color: transparent;
+  width: 140px; 
+  cell-spacing: 0px;
+  border: groove red 0px;
+  padding: 0px;
+}
+td.TBLHEAD {
+  background-color: NAVY
+}
+td.LEADER {background-color: GOLD}
+td.UADUP {
+  background-color: #44CC44;
+}
+td.UADDOWN {
+  background-color: #CC4444;
+}
+td.TBLROW {
+  background-color: #addce3;
+}
+td.LOGINHD {background-color: NAVY}
+td.LOGINRW {background-color: #addce3}
+
+td.LEFTCOL {
+  width: 140px; 
+  background-color: transparent;
+  vertical-align: top;
+}
+td.CENTERCOL {
+  width: 520px; 
+  vertical-align: top; 
+  text-align: left;
+}
+td.RIGHTCOL {
+  width: 140px; 
+  vertical-align: top;
+}
+td.TBLPOS {background-color: NAVY; width: 40px; text-align: center}
+td.TBLUSER {background-color: NAVY; width: 180px; text-align: center}
+td.TBLPLAYED {background-color: NAVY; width: 40px; text-align: center}
+td.TBLWON {background-color: NAVY; width: 40px; text-align: center}
+td.TBLDRAWN {background-color: NAVY; width: 40px; text-align: center}
+td.TBLLOST {background-color: NAVY; width: 40px; text-align: center}
+td.TBLFOR {background-color: NAVY; width: 40px; text-align: center}
+td.TBLAGAINST {background-color: NAVY; width: 40px; text-align: center}
+td.TBLGD {background-color: NAVY; width: 40px; text-align: center}
+td.TBLPTS {background-color: NAVY; width: 40px; text-align: center}
+
+font.SHOUTROW {
+  font-size: 8pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none
+}
+td.SHOUTROW {
+  background-color: #addce3;
+}
+div.SHOUTROW {
+  background : #addce3; 
+  color : NAVY;
+  padding : 1px; 
+  width : 130px; 
+  height : 200px; 
+  overflow : auto;
+}
+img.SHOUTROW {
+  height : 12px; 
+}

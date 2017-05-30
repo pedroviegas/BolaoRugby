@@ -1,0 +1,385 @@
+Changes
+-------
+V2.06.
+New version files
+  version.php
+  upgrade205to206.php
+  ReleaseNotes.php
+Updated comments in datefunctions
+  datefunctions.php
+Formatted date for audit email and added log of IP address used.
+  controller.php
+Language file new additions
+  lang.english.php
+Admin can change users predictions
+  controller.php
+  userfunctions.php
+  statsfunctions.php
+Added Bonus to My Predictions
+  sortfunctions.php
+  lang.english.php
+Added `` to dbasenames to support dodgy characters
+  dbasefunctions.php
+Added week to fixture display and also to tables
+  createdbase.php
+  fixturefunction.php
+  adminenterfixtureview.php
+  adminentermultfixtureview.php
+  sortfunctions.php
+Added check for correct directory. This makes sure that the user has not logged into another league on the same server and then comes to this league.
+  sessiondata.php
+  userclass.php
+Removed unused files
+  logout.php
+Added query paging to standings.
+  statsfunctions.php
+  createdbase.php
+Fixed bug in modifyint fixtures. The reset button set incorrect URL.
+  adminenterfixtureview.php
+Adding points for monthly winner
+  systemvars.php
+  dbasefunctions.php
+  configvalues.php
+Added config option for hiding the icon in the main display.
+  systemvars.php
+  configvalues.php
+  statsfunctions.php
+  dbasefunctions.php
+Added monthly standings to the standings table and removed the monthly standings table.
+  createdbase.php
+  configvalues.php
+  createdbase.php
+Removed WeekEnd time and day
+  systemvars.php
+  configvalues.php
+Added pluserdata to table deleting
+  deletetables.php
+Added sort order for shouts
+  shoutboxfunctions.php
+Added current users to mainview.
+  mainview.php
+  userfunctions.php
+Fixed Turkish language file
+  lang.turkish.php
+
+V2.05.
+New version files
+  version.php
+  upgrade204to205.php
+  ReleaseNotes.php
+Language updates
+  Hebrew
+  Japanese
+  Portugese
+  Croatian
+  Dutch
+  Italian
+  Russian
+  Turkish
+  Romanian
+Fixed bug for posting shouts after a form has been entered
+  controller.php
+  shoutboxfunctions.php
+  systemvars.php
+Stopped blank shouts from being entered
+  shoutboxfunctions.php
+Improved admin interface
+  shoutboxfunctions.php
+Added FileDirectory to systemvars to be used if PATH_TRANSLATED is not available
+  systemvars.php
+  filefunctions.php
+Added audit email option. If this is set, then users predictions will be sent to the addresses in this list.
+  config.php
+  controller.php
+Fixed URL
+  mainview.php
+Fixed REMOTE_PORT problem with IIS.
+  filefunctions.php
+  logfunctions.php
+  security.php
+  userclass.php
+Removed unused files
+  showmymessages.php
+  emailallusers.php
+Fixed index bug in controller
+  controller.php
+Fixed upgrade200to201.php to correctly set SHOWDIVISIONS
+  upgrade200to201.php
+Added default to hide all errors in systemvars.php
+  systemvars.php
+Removed menu options for manage competitions
+  adminmenus.php
+Fixed weekly winners (again)
+  statsfunctions.php
+Added option to hide the weekly stuff
+  systemvars.php
+  configvalues.php
+  dbasefunctions.php
+  mainview.php
+  statsfunctions.php
+Fixed get leaderboard
+  getleaderboard.php
+
+V2.04.
+New version files
+  version.php
+  upgrade203to204.php
+  ReleaseNotes.php
+Removed unused files
+  commandlist.txt
+Added shoutbox
+  index.php
+  shoutboxfunctions.php
+  systemvars.php
+  dbasefunctions.php
+  configvalues.php
+  common.css
+  controller.php
+  lang.english.php
+Added new banner
+  foot.jpg
+Set version in upgrade files
+  upgrade200to201.php
+  upgrade201to202.php
+  upgrade202to203.php
+
+V2.03.
+New version files
+  version.php
+  upgrade202to203.php
+  ReleaseNotes.php
+Fix change icons problem
+  controller.php
+Fix modify fixture in enter multiple results
+  sortfunctions.php
+
+V2.02.
+New version files
+  version.php
+  upgrade201to202.php
+  ReleaseNotes.php
+Changed the display of penalties in results to only be shown when game type is correct.
+  fixturefunctions.php
+Made icons directory configurable
+  systemvars.php
+  iconview.php
+  iconfunctions.php
+  filefunctions.php
+  controller.php
+Show Position and points in the menu
+  menus.php
+  security.php
+  lang.english.php
+Removed obsolete dbase interaction
+  sendpassword.php
+  security.php
+Fixed wrap in messages
+  msgfunctions.php
+Added messaging to menus
+  menus.php
+  controller.php
+  lang.english.php
+  msgfunctions.php
+Added incorrectResult points
+  gamestatsclass.php
+  systemvars.php
+  dbasefunctions.php
+Display standings when logging in
+  userclass.php
+  profileview.php
+Deleted unused files
+
+V2.01.
+New version files
+  systemvars.php
+  version.php
+  upgrade200to201.php
+  upgradeE08to201.php
+  ReleaseNotes.php
+Removed importing of 1.11 users in admin menu
+  adminsetupmenu.php
+Removed call to Tournament standings
+  statsfunctions.php
+Added change to support Knockout and League games
+  sortfunctions.php
+  postresultview.php
+Fixed some incorrect initial settings
+  dbasefunctions.php
+Removed option to install Euro 2004 fixtures
+  adminsetupmenu.php
+Allow user to delete a prediction by setting the prediction values to blanks
+  controller.php
+
+V2.00.
+Removed tournament standings for this release. To be added later with leageu standings.
+Removed Euro2004 Specifics
+Removed unused files.
+Added concept of competitions. This allows games to be targeted to specific competitions.
+
+Euro version E.08
+  ReleaseNotes.php
+  upgradeE07toE08.php
+  version.php
+Fixed vulnerability where latre predictions can be entered.
+  sortfunctions.php
+  controller.php
+
+Euro version E.07
+  ReleaseNotes.php
+  upgradeE06toE07.php
+  version.php
+Added adimin ability to delete icons (avatars)
+  adminmenus.php
+  iconfunctions.php  
+  controller.php
+Made English default lang for all missing translations
+  index.php
+  loginpanel.php
+  sortfunctions.php
+  lang.english.php
+Fixed Penalties display
+  fixturefunctions.php
+
+Euro version E.06
+  ReleaseNotes.php
+  upgradeE05toE06.php
+  version.php
+Hide stats when a userid has not corresponding username.
+  statsfunctions.php
+Added result text 
+  sortfunctions.php
+
+Euro version E.05
+  ReleaseNotes.php
+  upgradeE04toE05.php
+  version.php
+Help for scoring
+  All lang files
+Added some simple stats
+  statsfunctions.php
+  userfunctions.php
+  menus.php
+  gamestatsclass.php
+  userfunctions.php
+Added equal position delay
+  statsfunctions.php
+Fixed message bug
+  msgfunctions.php
+Updated INSTALL
+  INSTALL.TXT
+
+Euro version E.04
+Fixed oneScore bug.
+  gamestatsclass.php
+  systemvars.php (version number change only)
+  upgradeE03toE04.php
+Added result next to users prediction
+  sortfunctions.php
+Added config file so that systemvars.php changes are less of a problem.
+  config.php
+  systemvars.php
+  version.php
+
+Euro version E.03
+Added upgrade 
+  upgradeE02toE03.php
+Added new scoring features
+  dbasefunctoins.php
+  systemvars.php
+  configvalues.php
+  gamestatsclass.php
+Fixed PLHome problem
+  All language files
+  createadminuser.php
+Fixed weekly winners
+  statsfunctions.php
+Changed ups and downs
+  statsfunctions.php
+
+Euro version E.02
+Added date to log stuff
+  datefunctions.php
+  userclass.php
+  userfunctions.php
+  ReleaseNotes.txt
+Changed weekly winners and ups and downs to only update after week is crossed
+  statsfunctions.php
+Fixed week crossing to check for timezone
+  datefunctions.php
+  statsfunctions.php
+Change the lock game default to false
+  systemvars.php
+Added ability to view future stats (separated from view predictions)
+  systemvars.php
+  dbasefunctions.php
+Added upgrade 
+  upgradeE101toE02.php
+Changed versions to be Euro specific
+  systemvars.php
+Added ability for user to delete an account
+  profileview.php
+  all language files
+  controller.php
+  userfunctions.php
+  systemvars.php
+  configvalues.php
+  userclass.php
+Log layout on explorer requires iframe closing tag
+  logfunctions.php
+  
+Euro Version 002 June 7th 2004
+Changed to wrap text.
+  error.php
+Added import from 1.11
+  adminsetupmenu.php
+  inserttestdata.php
+  adminimport111intoeuro.php
+  import111intoeurodbase.php
+  admininsertEuro2004fixtures.php
+Added upgrade script.
+  upgrade111toEuro.php
+Fixed delete problem
+  controller.php
+  fixturefunctions.php
+  sortfunctions.php
+Fixed fixture changes
+  tournamentfunctions.php
+Added more entries to empty tables
+  emptytables.php
+Miscellaneous text changes in admin screens.
+  admininsertEuro2004fixtures.php
+Added FAQ
+  faq.txt
+Fixed a date copmparison
+  tournamentfunctions.php
+Added upgrade 
+  upgradeE100toE101.php
+Removed Euro 2004 from version as it is a tm
+  systemvars.php
+Set session.compat_bug_42 flag and error flag to on.
+  systemvars.php
+Replaced session_register with superglobals
+  systemvars.php
+  sessiondata.php
+  loginpanel.php
+Added Txt_Home_Page
+  All language files
+  menus.php
+
+Euro Version 001
+
+2.00 Beta 001 Released April 27 2004
+Added last ip and last login to database.
+Added Missing Predictions for user.
+Added lock functionality. This allows admins only to create users.
+Added "No Messages"
+Added table for logging ip addresses.
+Added text to icon in user profile
+Added bonus points for games
+Added points column to predictions.
+Added icon to standings, added username to message text.
+Added alt text to icon in menu
+Added previous position to the standings table
+Defaulted sessions to use the sessions directory within prediction football.
+Added email option to allow users to email each other.
+

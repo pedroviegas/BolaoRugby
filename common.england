@@ -1,0 +1,72 @@
+A:link { 
+  font-family: tahoma, verdana, arial; 
+  font-size: 10pt; 
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal; 
+  color: red; 
+  text-decoration: none 
+}
+A:visited { font-family: tahoma, verdana, arial; font-size: 10pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: red; text-decoration: none }
+A:hover { font-family: tahoma, verdana, arial; font-size: 10pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: white; text-decoration: none }
+A.VERSION:visited { font-family: tahoma, verdana, arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: red; text-decoration: none }
+A.VERSION:link { font-family: tahoma, verdana, arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: red; text-decoration: none }
+A.VERSION:hover { font-family: tahoma, verdana, arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: white; text-decoration: none }
+
+body.MAIN {
+  background: white url(images/thinbluestrip002.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+font.TBLHEAD {font-size: 10pt; color: white; font-family: tahoma; font-weight: bold; text-decoration: none}
+font.TBLROW {font-size: 10pt; color: NAVY; font-family: tahoma; text-decoration: none}
+font.VERSION {font-size: 8pt; color: NAVY; font-family: tahoma; text-decoration: none}
+font.LEADER {font-size: 10pt; color: NAVY; font-family: tahoma; text-decoration: none; background-color: GOLD}
+font.PRDROW {font-size: 10pt; color: NAVY; font-family: tahoma; font-weight: normal; text-decoration: none; background-color: #addce3}
+font.LOGINHD {font-size: 8pt; color: white; font-family: tahoma; font-weight: bold; text-decoration: none; background-color: navy}
+font.LOGINRW {font-size: 8pt; color: NAVY; font-family: tahoma; text-decoration: none; background-color: #addce3}
+
+font.HELPTEXT {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none; 
+  background-color: WHITE}
+font.HELPROW {
+  font-size: 10pt; 
+  color: NAVY; 
+  font-family: tahoma; 
+  text-decoration: none}
+font.HELPHEAD {
+  font-size: 10pt; 
+  color: WHITE; 
+  font-family: tahoma; 
+  text-decoration: BOLD
+}
+
+table.LEFT {width: 150px; background-color: #ffffff}
+table.CENTER {width: 500px; background-color: #ffffff}
+table.RIGHT {width: 150px; background-color: #ffffff}
+table.MAINTB {
+  width: 800px; 
+}
+table.LOGINTB {background-color: #addce3}
+td.TBLHEAD {background-color: NAVY}
+td.LEADER {background-color: GOLD}
+td.TBLROW {background-color: #addce3}
+td.LOGINHD {background-color: NAVY}
+td.LOGINRW {background-color: #addce3}
+td.LEFTCOL {width: 150px; vertical-align: top}
+td.CENTERCOL {width: 500px; vertical-align: top; text-align: center}
+td.RIGHTCOL {width: 150px; vertical-align: top}
+td.TBLPOS {background-color: NAVY; width: 40px; text-align: center}
+td.TBLUSER {background-color: NAVY; width: 180px; text-align: center}
+td.TBLPLAYED {background-color: NAVY; width: 40px; text-align: center}
+td.TBLWON {background-color: NAVY; width: 40px; text-align: center}
+td.TBLDRAWN {background-color: NAVY; width: 40px; text-align: center}
+td.TBLLOST {background-color: NAVY; width: 40px; text-align: center}
+td.TBLFOR {background-color: NAVY; width: 40px; text-align: center}
+td.TBLAGAINST {background-color: NAVY; width: 40px; text-align: center}
+td.TBLGD {background-color: NAVY; width: 40px; text-align: center}
+td.TBLPTS {background-color: NAVY; width: 40px; text-align: center}

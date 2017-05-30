@@ -1,0 +1,100 @@
+Group A
+Portugal
+Greece
+Spain
+Russia
+
+Portugal v Greece 12.06.2004 17:00
+Spain v Russia 12.06.2004 19:45
+
+Greece v Spain 16.06.2004 17:00
+Russia v Portugal 16.06.2004 19:45
+
+Spain v Portugal 20.06.2004 19:45
+Russia v Greece 20.06.2004 19:45
+
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (1,"$Txt_Portugal","$Txt_Greece",20040612 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (2,"$Txt_Spain","$Txt_Russia",20040612 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (3,"$Txt_Greece","$Txt_Spain",20040616 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (4,"$Txt_Russia","$Txt_Portugal",20040616 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (5,"$Txt_Spain","$Txt_Portugal",20040620 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (6,"$Txt_Russia","$Txt_Greece",20040620 19:45:00)";
+
+Group B
+France
+England
+Switzerland
+Croatia
+
+Switzerland v Croatia 13.06.2004 17:00
+France v England 13.06.2004 19:45
+
+England v Switzerland 17.06.2004 17:00
+Croatia v France 17.06.2004 19:45
+
+Croatia v England 21.06.2004 19:45
+Switzerland v France 21.06.2004 19:45
+
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (7,"$Txt_Switzerland","$Txt_Croatia",20040613 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (8,"$Txt_France","$Txt_England",20040613 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (9,"$Txt_England","$Txt_Switzerland",20040617 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (10,"$Txt_Croatia","$Txt_France",20040617 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (11,"$Txt_Croatia","$Txt_England",20040621 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (12,"$Txt_Switzerland","$Txt_France",20040621 19:45:00)";
+
+Group C
+Sweden
+Bulgaria
+Denmark
+Italy
+
+Denmark v Italy 14.06.2004 17:00
+Sweden v Bulgaria 14.06.2004 19:45
+
+Bulgaria v Denmark 18.06.2004 17:00
+Italy v Sweden 18.06.2004 19:45
+
+Italy v Bulgaria 22.06.2004 19:45
+Denmark v Sweden 22.06.2004 19:45
+
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (13,"$Txt_Denmark","$Txt_Italy",20040614 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (14,"$Txt_Sweden","$Txt_Bulgaria",20040614 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (15,"$Txt_Bulgaria","$Txt_Denmark",20040618 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (16,"$Txt_Italy","$Txt_Sweden",20040618 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (17,"$Txt_Italy","$Txt_Bulgaria",20040622 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (18,"$Txt_Denmark","$Txt_Sweden",20040622 19:45:00)";
+
+Group D
+Czech Republic
+Latvia
+Germany
+Netherlands
+
+Germany v Netherlands 15.06.2004 17:00
+Czech Republic v Latvia 15.06.2004 19:45
+
+Latvia v Germany 19.06.2004 17:00
+Netherlands v Czech Republic 19.06.2004 19:45
+
+Netherlands v Latvia 23.06.2004 19:45
+Germany v Czech Republic 23.06.2004 19:45
+
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (19,"$Txt_Germany","$Txt_Netherlands",20040615 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (20,"$Txt_CzechRepublic","$Txt_Latvia",20040615 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (21,"$Txt_Latvia","$Txt_Germany",20040619 17:00:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (22,"$Txt_Netherlands","$Txt_CzechRepublic",20040619 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (23,"$Txt_Netherlands","$Txt_Latvia",20040623 19:45:00)";
+$query = "insert into plmatchdata (matchid, hometeam, awayteam, matchdate) values (24,"$Txt_Germany","$Txt_CzechRepublic",20040623 19:45:00)";
+
+Quarter Finals
+1. A1 v B2 24.06.2004
+2. A2 v B1 25.06.2004
+3. C1 v D2 26.06.2004
+4. C2 v D1 27.06.2004
+
+Semi Finals
+1. Q1 v Q3 30.06.2004
+2. Q2 v Q4 01.07.2004
+
+Final 
+1. S1 v S2 04.07.2004

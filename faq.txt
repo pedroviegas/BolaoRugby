@@ -1,0 +1,19 @@
+Frequently Asked Questions
+
+1. How do I configure the time zone.
+This is one of the more complicated settings in the league as your server can be in one time zone and your users another. 
+You will first need to determine the time zone that your server runs in, and also the timezone that you want the league to be run in.
+For example you could be living in England but your server is in New York. This gives a -5 hour difference between the server and the time zone that the users are in.
+During the install there is an option to check the time on the server, client and the game time.
+The game time is calculated from the server time using the currently configured time zone offset.
+
+The initial time zone offset is configured in systemvars.php using the variable timezoneOffset. This is used when the tables are created. Subsequent changes to the timezone offset are made in the configured game parameters.
+
+2. I want to lock the game so that only admins can create users.
+To have a game locked means that users cannot create acounts for themselves, but they must be created by an amdin. This is a configurable option in the game parameters. If the game is locked, then the option to create a user is missing from the login panel on the front page and a new menu item appears in the admins menus.
+
+3. How does the scoring work
+
+4. How are the positions calculated
+
+

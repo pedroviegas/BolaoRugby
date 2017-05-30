@@ -1,0 +1,41 @@
+Outstanding items
+-----------------
+  1.  Add a decent help page
+  2.  Replace "or die" with something more useful
+  3.  Add limit on log file size (although this should not be an issue for only admin logs). 
+x 4.  Add user delete
+x 5.  Add user message function
+x 6.  Add limit to one user per email address
+x 7.  Add means to view simultaneous games
+x 8.  Remove restriction on cookies
+x 9.  Amend help for cookie values.
+x 10. Add cookie test page.
+x 11. Add email name to SystemVars.php
+x 12. Move system vars to DB.
+x 13. Add admin restriction on viewing users page.
+  14. Take header out of table and put in page.
+x 15. Make sure login is consistent on pages.
+x 16. Update the install to match new SystemVars.php
+  17. Add flag for users to allow emailing to users.
+x 18. Fix ErrorCode display.
+x 19. Remove password display from the logfile.
+x 20. Add page for viewing the logfile. The logfile should be
+      read only by the server. This way the security checks can be 
+      performed when reading the logfile.
+x 21. Allow users to upload icons.
+x 22. Allow mini user icons to be displayed.
+x 23. Allow multiple results to be entered at once.
+  24. Add last logged in for user.
+x 25. Add last IP address for user.
+  26. Add gambling option for user. Also needs lots of housekeeping functionality.
+  27. Add stats display (e.g. weekly winner etc.)
+  28. Improve performance
+  29. Add Div numbers to tabs instead of 1-11 numbering.
+x 30. Fix javascript for next/prev.
+  31. Fix javascript for buttons in netscape.
+  32. Add table control for paging a large table.
+  33. Fix outstanding predictions.
+X 34. Add email notification when user gets a message.
+  35. Add PSP file to zip.
+  36. Why are passwords disappearing?
+  37. Make flags specific for Euro2004 version.
